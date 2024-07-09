@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .one{
+            width: 65px;
+            height: 65px;
+            background-color: skyblue;
+            background: radial-gradient(skyblue);
+            border-radius: 50%;
+            margin-inline-end: 25px;
+            margin-top: 300px;
+            display: inline-block;
+            animation-name: bouncing;
+            animation-duration: 0.75s;
+            animation-delay: 1ms;
+            animation-iteration-count: infinite;
+        }
+        .two{
+            width: 65px;
+            height: 65px;
+            background-color: skyblue;
+            background: radial-gradient(skyblue);
+            border-radius: 50%;
+            margin-inline-end: 25px;
+            display: inline-block;
+            animation-name: bouncing;
+            animation-duration: 1s;
+            animation-delay: 2ms;
+            animation-iteration-count: infinite;
+        }
+        .three{
+            width: 65px;
+            height: 65px;
+            background-color: skyblue;
+            background: radial-gradient(skyblue);
+            border-radius: 50%;
+            margin-inline-end: 25px;
+            display: inline-block;
+            animation-name: bouncing;
+            animation-duration: 1.5s;
+            animation-delay: 3ms;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bouncing{
+            from{background-color: skyblue;}
+            to{background-color: skyblue; transform: translateY(-50px);}
+            
+        }
+    </style>
+</head>
+<body>
+    <center >
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+</center>
+</body>
+</html>
